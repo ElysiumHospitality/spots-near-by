@@ -1,0 +1,29 @@
+.photo-gallery { width: 100%; min-width: 0; margin: 12px 0; }
+.photo-track { display: flex; width: 100%; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain; border-radius: 20px; scrollbar-width: thin; }
+.photo-slide { flex: 0 0 100%; min-width: 0; margin: 0; scroll-snap-align: start; background: #eeeee5; }
+.photo-slide img { display: block; width: 100%; height: clamp(190px, 32vw, 300px); object-fit: cover; }
+.photo-slide figcaption { padding: 8px 12px; font-size: 14px; line-height: 1.5; }
+.photo-slide small { display: block; font-size: 11px; overflow-wrap: anywhere; margin-top: 5px; }
+.photo-slide a { color: inherit; text-decoration: underline; }
+.photo-controls { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 10px; }
+.photo-controls button { border: 1px solid #214638; border-radius: 50%; background: transparent; color: #214638; width: 44px; height: 44px; font-size: 22px; cursor: pointer; }
+.photo-controls button:disabled { opacity: .3; cursor: default; }
+.photo-controls p { margin: 0; font-size: 14px; text-align: center; }
+.photo-controls small { display: block; font-size: 12px; }
+.photo-gallery :focus-visible { outline: 3px solid #ad6b24; outline-offset: 3px; }
+
+.photo-window { position: relative; }
+.photo-controls { position: absolute; inset: 0 12px auto; height: clamp(190px, 32vw, 300px); padding: 0; pointer-events: none; }
+.photo-controls button { pointer-events: auto; background: rgba(250,249,245,.94); border: 1px solid #ffffffbb; box-shadow: 0 2px 12px #0003; }
+.photo-controls button:disabled { opacity: .5; }
+.photo-controls button:not(:disabled):hover { background: white; }
+.photo-counter { margin: 7px 0 0; text-align: center; font-size: 12px; }
+
+.photo-gallery { --photo-height: clamp(320px, 58vw, 560px); }
+.photo-slide img, .photo-controls { height: var(--photo-height); }
+.photo-track { scrollbar-width: none; }
+.photo-track::-webkit-scrollbar { display: none; }
+.photo-credits { margin-top: 8px; font-size: 11px; line-height: 1.5; }
+.photo-credits summary { cursor: pointer; text-decoration: underline; }
+.photo-credits p { margin: 6px 0; }
+.photo-credits a { color: inherit; }

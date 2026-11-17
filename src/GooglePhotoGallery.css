@@ -1,0 +1,10 @@
+.google-gallery-shell { min-width: 0; }
+.google-photo-slide { position: relative; }
+.google-photo-attribution { position: absolute; bottom: 0; left: 0; right: 0; display: flex; flex-wrap: wrap; gap: 6px 12px; background: #fffffff2; color: #1f1f1f; padding: 8px 12px !important; font: 12px/1.4 system-ui, sans-serif !important; }
+.google-photo-attribution a { color: #1f1f1f; }
+.google-brand { font-size: 13px; font-weight: 400; white-space: nowrap; letter-spacing: normal; }
+.google-photo-placeholder { height: var(--photo-height); display: grid; place-items: center; background: #e8dfc4; }
+.google-photo-status { font-size: 12px; color: #65502a; }
+.site-policies { max-width: 1000px; margin: auto; padding: 24px; font-size: 12px; line-height: 1.6; }
+.site-policies a { color: inherit; }
+@media (min-width: 900px) { .place > .google-gallery-shell { grid-column: 1; grid-row: 1 / 3; } }

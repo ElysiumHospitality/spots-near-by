@@ -1,0 +1,170 @@
+{
+  "Anhinga Trail — Everglades National Park": [
+    {
+      "src": "photos/0.jpg",
+      "alt": "Sunset over the Everglades sawgrass prairie",
+      "caption": "Everglades National Park · landscape photo"
+    },
+    {
+      "src": "photos/0-2.jpg",
+      "alt": "Boardwalk on the Anhinga Trail",
+      "caption": "Everglades National Park — Anhinga Trail"
+    }
+  ],
+  "Boca Chita Key — Biscayne National Park": [
+    {
+      "src": "photos/1.jpg",
+      "alt": "Sunset over the bay at Biscayne National Park",
+      "caption": "Biscayne National Park · bay photo"
+    },
+    {
+      "src": "photos/1-2.jpg",
+      "alt": "Boca Chita Key lighthouse",
+      "caption": "Biscayne National Park — Boca Chita Key"
+    }
+  ],
+  "Coral Castle": [
+    {
+      "src": "photos/2.jpg",
+      "alt": "Coral rock walls and sculptures at Coral Castle",
+      "caption": "Coral Castle"
+    },
+    {
+      "src": "photos/2-2.jpg",
+      "alt": "Entrance to Coral Castle in Homestead",
+      "caption": "Coral Castle"
+    }
+  ],
+  "Fruit & Spice Park": [
+    {
+      "src": "photos/3.jpg",
+      "alt": "Palm trees surrounding a pond at Fruit and Spice Park",
+      "caption": "Fruit & Spice Park"
+    },
+    {
+      "src": "photos/3-2.jpg",
+      "alt": "Jackfruit growing on a tropical tree",
+      "caption": "Tropical jackfruit · illustrative photo"
+    }
+  ],
+  "Robert Is Here": [
+    {
+      "src": "photos/4.jpg",
+      "alt": "Fresh mangoes, an illustration of tropical produce",
+      "caption": "Tropical fruit · illustrative photo"
+    },
+    {
+      "src": "photos/4-2.jpg",
+      "alt": "Green papaya fruit growing on a tree",
+      "caption": "Tropical fruit · illustrative photo"
+    }
+  ],
+  "Homestead Bayfront Park": [
+    {
+      "src": "photos/6.jpg",
+      "alt": "Visitors participating in an outdoor event at Homestead Bayfront Park",
+      "caption": "Homestead Bayfront Park"
+    },
+    {
+      "src": "photos/6-2.jpg",
+      "alt": "Swimmers along the shoreline at Homestead Bayfront Park",
+      "caption": "Homestead Bayfront Park"
+    }
+  ],
+  "Zoo Miami": [
+    {
+      "src": "photos/8.jpg",
+      "alt": "A giraffe at Zoo Miami",
+      "caption": "Zoo Miami"
+    },
+    {
+      "src": "photos/8-2.jpg",
+      "alt": "A white tiger at Zoo Miami",
+      "caption": "Zoo Miami"
+    }
+  ],
+  "John Pennekamp Coral Reef State Park": [
+    {
+      "src": "photos/11.jpg",
+      "alt": "Coastal scenery at John Pennekamp Coral Reef State Park",
+      "caption": "John Pennekamp Coral Reef State Park"
+    },
+    {
+      "src": "photos/11-2.jpg",
+      "alt": "A brown pelican beside mangroves",
+      "caption": "Coastal wildlife · illustrative photo"
+    }
+  ],
+  "Vizcaya Museum & Gardens": [
+    {
+      "src": "photos/12.jpg",
+      "alt": "Vizcaya Museum and Gardens in Miami",
+      "caption": "Vizcaya Museum & Gardens"
+    },
+    {
+      "src": "photos/12-2.jpg",
+      "alt": "The waterfront mansion at Vizcaya",
+      "caption": "Vizcaya Museum & Gardens"
+    }
+  ],
+  "Schnebly Redland’s Winery": [
+    {
+      "src": "photos/13.jpg",
+      "alt": "A glass of wine, illustrating a winery tasting",
+      "caption": "Wine tasting · illustrative photo"
+    },
+    {
+      "src": "photos/13-2.jpg",
+      "alt": "A collection of colorful wine glasses",
+      "caption": "Wine tasting · illustrative photo"
+    }
+  ],
+  "Everglades Alligator Farm": [
+    {
+      "src": "photos/5.jpg",
+      "alt": "Everglades Alligator Farm",
+      "caption": "Everglades Alligator Farm"
+    },
+    {
+      "src": "photos/5-gallery-1.jpg",
+      "alt": "Alligators at Everglades Alligator Farm 01",
+      "caption": "Everglades Alligator Farm"
+    }
+  ],
+  "Deering Estate": [
+    {
+      "src": "photos/10.jpg",
+      "alt": "Deering Estate",
+      "caption": "Deering Estate"
+    },
+    {
+      "src": "photos/10-gallery-1.jpg",
+      "alt": "Historic houses and boat basin at Deering Estate",
+      "caption": "Deering Estate"
+    }
+  ],
+  "Black Point Park & Marina": [
+    {
+      "src": "photos/14-gallery-1.jpg",
+      "alt": "Black Point Marina - Night",
+      "caption": "Black Point Park & Marina"
+    },
+    {
+      "src": "photos/1.jpg",
+      "alt": "Sunset over the bay at Biscayne National Park",
+      "caption": "Biscayne Bay region · nearby scenery"
+    }
+  ],
+  "R. F. Orchids": [
+    {
+      "src": "photos/15-gallery-1.jpg",
+      "alt": "Orchid blooms",
+      "caption": "Orchids · illustrative photo"
+    },
+    {
+      "src": "photos/15-gallery-2.jpg",
+      "alt": "Orchid blossoms",
+      "caption": "Orchids · illustrative photo"
+    }
+  ]
+}
