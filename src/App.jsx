@@ -166,7 +166,6 @@ export default function App() {
         <h1>Explore Homestead</h1>
         <p>Explore 14 places near your stay. Scroll down to discover your next stop ↓</p>
         <p>Drive estimates start at {startingPoint}.</p>
-        <p>Planning ranges based on Google Maps routes checked November 17, 2026. Traffic varies; some routes include tolls. Open directions for current travel times.</p>
       </header>
 
       {places.map((place, index) => (
