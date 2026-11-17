@@ -1,31 +1,25 @@
-# Spots Near By
+# Spots Near By — Elysium Hospitality
 
-A React guest guide to 14 attractions around Homestead, Florida. Includes estimated drive times, directions, swipeable photo galleries, and responsive sections.
+A mobile-friendly Homestead guest guide with 14 attractions, drive estimates, map directions, and swipeable local photo galleries.
 
-## Local development
+## Run locally
 
-Run npm ci, then npm run dev. Open http://localhost:5174/.
+Run npm ci, then npm run dev. The local address is http://localhost:5174/.
 
-## Google photos and key visibility
+## Publish to GitHub Pages
 
-The local browser key lives in .env.local, which Git ignores. Never commit it or the generated dist directory. .env.example contains only a placeholder.
+Select GitHub Actions under Settings > Pages. The deployment workflow builds and publishes on pushes to main, or can be run manually. Relative paths support repository Pages URLs.
 
-Google Maps JavaScript requires a browser API key. Vite embeds VITE_ variables in the generated JavaScript, so neither .env files nor GitHub Actions secrets can hide a key from visitors to a deployed website. Restrict any browser key to the site's exact allowed origins and the required APIs in Google Cloud.
+## Photos and privacy
 
-The included GitHub Pages workflow reads the GOOGLE_MAPS_API_KEY repository Actions secret at build time. This keeps the key out of source control, but it remains visible in the deployed browser JavaScript. If the secret is missing or Google rejects access, licensed backup photos remain available. Keeping a Google key truly secret requires a separate backend; GitHub Pages does not run one. Google photo requests currently return PERMISSION_DENIED in local testing.
+Photos are served with the website. No Google photo API, API key, billing account, or repository secret is needed. Photographer credits and licenses appear in each gallery and in src/photo-credits.json. Some photos are illustrative, as identified in the credits.
 
-## GitHub Pages
-
-Under repository Settings > Pages, choose GitHub Actions. Add the restricted browser key under Settings > Secrets and variables > Actions as GOOGLE_MAPS_API_KEY. Allow the actual GitHub Pages origin in the key website restrictions, and allow Maps JavaScript API and Places API (New). Run the Deploy to Pages workflow manually. Relative asset paths support repository subpaths.
-
-## Photos
-
-Backup photo source and license records are in src/photo-credits.json. Some images are illustrative; the expandable credits identify them. Preserve these credits and licenses when reusing images.
+Directions links open Google Maps with the property's starting address and the attraction destination when selected. Drive times are estimates; check live directions before travel.
 
 ## Commands
 
-- npm run dev: local development
-- npm run build: production build
+- npm run dev: development
+- npm run build: production output in dist
 - npm run preview: preview production output
 
-Drive times are planning estimates; follow current directions before travel.
+Local environment files and generated builds are excluded from Git.

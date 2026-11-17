@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './App.css'
-import GooglePhotoGallery from './GooglePhotoGallery'
+import PhotoGallery from './PhotoGallery'
 
 const startingPoint = '25888 SW 139th Path, Homestead, FL 33032'
 
@@ -148,7 +148,7 @@ function Place({ place, number }) {
       <h2>{place.name}</h2>
       <p>Estimated drive from your stay: {place.drive}</p>
       </div>
-      <GooglePhotoGallery name={place.name} destination={place.destination} />
+      <PhotoGallery name={place.name} />
       <div className="spot-details">
       <p>{place.ToDo}</p>
       {place.note && <p>{place.note}</p>}
@@ -172,7 +172,7 @@ export default function App() {
       {places.map((place, index) => (
         <Place key={place.name} place={place} number={index + 1} />
       ))}
-      <footer className="site-policies"><details><summary>Privacy &amp; terms</summary><p>This guide is for trip planning. Check attraction websites for current conditions. Google Maps features and content are subject to the <a href="https://maps.google.com/help/terms_maps/" target="_blank" rel="noopener noreferrer">Google Maps terms</a>. When a gallery loads, your browser connects to Google to request attraction photos. Google processes these requests under its <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>. This guide does not send the property's starting address when loading photos. Directions links send the starting address to Google Maps when opened.</p></details></footer>
+
     </main>
   )
 }
